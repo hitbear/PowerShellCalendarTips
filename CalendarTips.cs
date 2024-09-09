@@ -12,7 +12,7 @@ foreach ($techniker in $messtechniker){
 
 foreach ($techniker in $messtechniker){
     echo $techniker; 
-    Add-MailboxFolderPermission -Identity $techniker -User antonie.weiss@ms-ortungstechnik.de -AccessRights Editor;
+    Add-MailboxFolderPermission -Identity $techniker -User ae.s@tenant.com -AccessRights Editor;
     echo "`n"
 }
 
